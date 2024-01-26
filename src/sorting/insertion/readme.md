@@ -1,7 +1,4 @@
 # Insertion Sort
 ![insertion_sort_image](image.png)
 
->complexity
-> - Best case - O(n^2)
-> - Average case - O(n^2)
-> - Worst case - O(n^2)
+![complexityImage](https://logicmojo.com/assets/dist/new_pages/images/Insertsort2.png)
