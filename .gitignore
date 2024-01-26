@@ -1,0 +1,7 @@
+#bytecode
+dist
+
+#editor config
+.vscode
+.idea
+
