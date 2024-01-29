@@ -12,7 +12,7 @@ function heapSort(arr: Array<number>) {
 }
 
 function buildMaxHeap(arr: Array<number>) {
-  for (let i = Math.floor(arr.length / 1); i > -1; i--) {
+  for (let i = Math.floor(arr.length / 2); i > -1; i--) {
     maxHeapify(arr, arr.length, 0);
   }
 }
@@ -35,4 +35,4 @@ function maxHeapify(arr: Array<number>, heapSize: number, rootIndex: number) {
   }
 }
 
-console.log(heapSort([4, 10, 3,-2, 5, 1]));
+console.log(heapSort([1,4, 10, 3,-2, 5, 1]));
