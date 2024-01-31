@@ -13,7 +13,7 @@ function heapSort(arr: Array<number>) {
 
 function buildMaxHeap(arr: Array<number>) {
   for (let i = Math.floor(arr.length / 2); i > -1; i--) {
-    maxHeapify(arr, arr.length, 0);
+    maxHeapify(arr, arr.length, i);
   }
 }
 
