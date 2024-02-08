@@ -8,4 +8,4 @@
 
 ### Time Complexity:     
   - Best & Average - O(n logn)
-  - Worst : O(n)
+  - Worst : O(nlogn)
